@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_deep">#101024</color>
+    <color name="bg_card">#1D1D3A</color>
+    <color name="bg_card_stroke">#38386B</color>
+    <color name="text_primary">#F4F4FB</color>
+    <color name="text_secondary">#B9B9D6</color>
+    <color name="indigo">#6366F1</color>
+    <color name="violet">#8B5CF6</color>
+    <color name="accent_text">#A5B4FC</color>
+    <color name="error_text">#FCA5A5</color>
+    <color name="success_text">#86EFAC</color>
+    <color name="white">#FFFFFF</color>
+</resources>

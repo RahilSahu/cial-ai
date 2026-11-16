@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cial.ai</string>
+    <string name="tagline">Chat in any language</string>
+
+    <string name="accessibility_service_description">Cial.ai watches for one thing only: whether a text field is focused, so it can show its microphone bubble while you type in other apps. When you dictate and tap Insert, it places the finished text into that focused field. It does not read your messages, does not record in the background, and does not collect, store or share your text or audio. Audio is processed by your device speech service. Dictated text is sent only to the AI provider you choose in Settings, and only when you have added your own API key.</string>
+
+    <string name="step1_title">Step 1: Turn on the Cial.ai assistant</string>
+    <string name="step1_body">Cial.ai uses an Android Accessibility Service to notice when a text field is focused and to place finished text into it. Android asks you to switch this on yourself.</string>
+    <string name="step1_button">Open Accessibility Settings</string>
+    <string name="status_enabled">On: the assistant is running</string>
+    <string name="status_disabled">Off: enable Cial.ai in Accessibility Settings</string>
+
+    <string name="step2_title">Step 2: Allow the microphone</string>
+    <string name="step2_body">The microphone is used only while you are dictating, after you tap the Cial.ai bubble.</string>
+    <string name="step2_button">Allow microphone</string>
+    <string name="mic_granted">Microphone allowed</string>
+    <string name="mic_missing">Microphone not allowed yet</string>
+
+    <string name="step3_title">Step 3 (optional): Add your AI key for polishing</string>
+    <string name="step3_body">Without a key, Cial.ai works as a plain dictation tool and inserts your words as spoken. With your own API key, it rewrites your dictation into clean, ready to send text. The key is stored only on this device and is sent only to the provider you pick.</string>
+    <string name="provider_label">AI provider</string>
+    <string name="api_key_label">API key</string>
+    <string name="api_key_hint">Paste your key here</string>
+    <string name="model_label">Model</string>
+    <string name="test_connection">Test connection</string>
+    <string name="testing">Testing…</string>
+
+    <string name="defaults_title">Your defaults</string>
+    <string name="input_language_label">I speak</string>
+    <string name="output_mode_label">Write my messages in</string>
+    <string name="tone_label">Tone</string>
+
+    <string name="how_title">How it works</string>
+    <string name="how_body">1. Open any app and tap a text field. The Cial.ai microphone bubble appears.\n2. Tap the bubble and speak in your language.\n3. Check the text, tap Insert, and it lands in the field, ready to send.</string>
+
+    <string name="disclosure_title">Accessibility disclosure</string>
+    <string name="disclosure_body">Cial.ai uses the Accessibility Service only to detect text field focus, show its microphone bubble, and insert text you approved. It never reads your conversations, never records without your tap, and never collects, stores or shares your personal data. Speech is transcribed by the speech service built into your device. When you add an API key, your dictated text goes over HTTPS to the AI provider you selected, only to be rewritten.</string>
+
+    <string name="bubble_content_description">Dictate with Cial.ai</string>
+    <string name="panel_title">Cial.ai</string>
+    <string name="listening">Listening, speak now</string>
+    <string name="tap_done_when_finished">Tap Done when you finish speaking</string>
+    <string name="polishing">Polishing your text…</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="insert">Insert</string>
+    <string name="copy">Copy</string>
+    <string name="close">Close</string>
+    <string name="retry">Try again</string>
+    <string name="open_app">Open Cial.ai</string>
+    <string name="output_label">Output</string>
+    <string name="tone_label_short">Tone</string>
+    <string name="no_key_note">AI polish is off. Add your API key in Cial.ai Settings to get polished text. Your words are shown exactly as transcribed.</string>
+    <string name="polish_failed_note">Polish failed (%1$s). Showing your original words instead.</string>
+    <string name="copied_toast">Copied. Paste it anywhere.</string>
+    <string name="insert_fallback_toast">Could not type there directly, so your text was copied. Long-press the field and paste.</string>
+    <string name="mic_permission_needed">Microphone permission is needed for dictation. Open Cial.ai, go to Step 2, and allow the microphone, then try again.</string>
+    <string name="speech_unavailable">Speech recognition is not available on this device.</string>
+    <string name="nothing_heard">I could not hear that clearly. Please try again.</string>
+</resources>
